@@ -1,0 +1,42 @@
+package that we need :
+
+-> node  
+-> npm -v
+
+
+            ->  s{} package.json
+
+-> npm init -> {
+                package name: (backend_project) dynamic_online_course_website
+                version: (1.0.0) 
+                description: this is my first project
+                entry point: (index.js) = <ok>
+                test command: <enter empay>
+                git repository: <enter empay>
+                keywords: <enter empay>
+                author: sanjay acharya
+                license: (ISC) = <ok>
+}
+
+
+to install node framework epress -> npm install express 
+
+to install mongoose (connectivity of data base ) -> npm install mongoose
+
+to install body-parser (to parse the requested data to json);
+
+to install hbs templates  -> npm install hbs
+
+to install nodemon -> npm install nodemon --save-dev
+(it watches our code live and update it in terminal)
+
+to run the server -> npm start
+
+
+// configuration
+app.set('view engine', "hbs"); // which engine we are using
+app.set("views", "views")  // where we are place views directory
+ // partials in hbs language, we can make components in partials that we can serve in any routes pages
+ // ex : if i want to make navbar in 4 pages we have to write 4 times code. but if we want to make changes
+//   ageain we have to change everythiing. if i change any data form partials component it will changes the all data in navbar.
+hbs.registerPartials("views/partials")

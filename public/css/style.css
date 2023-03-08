@@ -1,0 +1,90 @@
+/* body{
+    background-color: aqua
+} */
+
+
+#pho{
+    height: 500px;
+    width: 1420px;
+    border-radius: 10px;
+}
+.photo {
+    position: relative;
+}
+.photo #pho{
+    height: 500px;
+    width: 1420px;
+    border-radius: 10px;
+    position: relative;
+
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.photoContainer{
+    margin-top: 10px;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    color: rgb(28, 146, 146);
+
+}
+
+
+#right{
+    height: 30px;
+    width: 30px;
+} 
+
+.course{
+    display: flex;
+    justify-content: center;
+}
+.courseList{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 500px;
+    width: 1420px;
+    background-color: rgb(3, 3, 3);
+}
+
+
+.icon i {
+    font-size: 50px;
+
+}
+
+.divTop{
+    margin-top: 50px;
+}
+.courses_section{
+    transition: 0.6s;
+}
+.courses_section:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 25px 0.5px;
+}
+.regDiv{
+    display: flex;
+    justify-content: center;
+
+}
+.register{
+    width: 1420px;
+    background-color: rgb(3, 3, 3);
+    border-radius: 10px
+
+
+}
+.register h2 {
+    color: rgb(28, 146, 146);
+    font-family: 'poppins' , sans-serif;
+}
+
+.icons a{
+    font-size: 25px;
+    color: black;
+}

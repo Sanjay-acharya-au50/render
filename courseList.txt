@@ -1,0 +1,12 @@
+Python for Beginners - Learn Programming from scratch
+Python For Beginners : This course is meant for absolute beginners in programming or in python.
+Teach Your Kids to Code: Learn to Program Python at Any Age!
+Short, colorful apps and games you can use to teach and learn programming at any age! Chromebook, PC, Mac and Linux!
+The Complete JavaScript Course 2023: From Zero to Expert!
+The modern JavaScript course for everyone! Master JavaScript with projects, challenges and theory. Many courses in one!
+React - The Complete Guide (incl Hooks, React Router, Redux)
+Dive in and learn React.js from scratch! Learn Reactjs, Hooks, Redux, React Routing, Animations, Next.js and way more!
+Ultimate AWS Certified Solutions Architect Associate SAA-C03
+Full Practice Exam | Learn Cloud Computing | Pass the AWS Certified Solutions Architect Associate Certification SAA-C03!
+Node.js, Express, MongoDB & More: The Complete Bootcamp 2023
+Master Node by building a real-world RESTful API and web app (with authentication, Node.js security, payments & more)

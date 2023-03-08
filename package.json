@@ -1,22 +1,24 @@
 {
-  "name": "render",
+  "name": "my_first_website",
   "version": "1.0.0",
-  "description": "render",
-  "main": "script.js",
+  "description": "this is my first project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js -e js, hbs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sanjay-acharya-au50/render.git"
-  },
-  "author": "san",
+  "author": "sanjay acharya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sanjay-acharya-au50/render/issues"
-  },
-  "homepage": "https://github.com/Sanjay-acharya-au50/render#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
